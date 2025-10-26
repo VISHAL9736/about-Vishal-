@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'MinecraftiaRegular', sans-serif;
-    color: #f5f5f5; /* brighter text color */
+    color: #f5f5f5; 
 
     /* Dark overlay + background image */
     background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
@@ -14,7 +14,7 @@ body {
 /* ===== Profile Card ===== */
 .box {
     width: 450px;
-    background: rgba(0, 0, 0, 0.75); /* darker for contrast */
+    background: rgba(0, 0, 0, 0.75); 
     padding: 40px;
     text-align: center;
     margin: auto;
@@ -38,7 +38,7 @@ body {
     letter-spacing: 1px;
     margin-top: 15px;
     font-weight: 100;
-    color: #ffffff; /* pure white */
+    color: #ffffff;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
 }
 
@@ -58,7 +58,7 @@ body {
     letter-spacing: 2px;
     font-weight: 300;
     margin-top: -5px;
-    color: #e0e0e0; /* light gray */
+    color: #e0e0e0; 
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
@@ -68,7 +68,7 @@ body {
     margin-top: 20px;
     line-height: 28px;
     font-size: 15px;
-    color: #f2f2f2; /* soft white */
+    color: #f2f2f2; 
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
 }
 
@@ -92,7 +92,7 @@ ul {
 }
 
 .box li a:hover {
-    color: #4da6ff; /* nice blue hover effect */
+    color: #4da6ff; 
     transform: scale(1.2);
 }
 
