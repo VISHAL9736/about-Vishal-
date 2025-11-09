@@ -1,5 +1,5 @@
-FROM nginx:alpine
-RUN rm -rf /usr/share/nginx/html/*
-COPY . /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+FROM openjdk:17-jdk-slim
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} app.jar
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","/app.jar"]
